@@ -3,7 +3,7 @@
 
 int hash_string(string s, int m) {
     // implement hashing function here
-    int prime = 67; 
+    int p = 67; 
 
     int val = 1;
 
