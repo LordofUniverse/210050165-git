@@ -1,10 +1,9 @@
 #include "hashing.hpp"
 #include <cmath>
 
-int hash_string(string s) {
+int hash_string(string s, int m) {
     // implement hashing function here
-    int m = 67; 
-    int p = 37;
+    int prime = 67; 
 
     int val = 1;
 
